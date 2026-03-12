@@ -61,6 +61,7 @@
             color: var(--primary);
             text-shadow: none;
             font-weight: 600;
+            display: block;
         }
         
         .navbar-content {
@@ -619,12 +620,20 @@
                 padding: 0.8rem 3%;
             }
             
+            .navbar .logo {
+                flex-direction: row !important;
+                gap: 0.5rem;
+            }
+            
             .navbar .logo img {
-                height: 35px;
+                height: 32px;
+                display: inline-block !important;
             }
             
             .navbar .logo-text {
-                font-size: 1.3rem;
+                font-size: 1.2rem;
+                display: inline-block !important;
+                visibility: visible !important;
             }
             
             .nav-links {
